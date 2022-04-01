@@ -14,16 +14,32 @@ body{
 }
 
 .display{
-  height: 5rem;
   text-align: right;
   font-size: 22px;
-  padding: 1rem;
+  padding: 1.5rem;
+
+
 }
+
+.first{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.second{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: rtl;
+}
+
 
 .input{
 
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
+
+
 }
 button:hover{
   font-weight: bolder;
