@@ -1,0 +1,31 @@
+body{
+  height: 50rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.calculator{
+  border: solid;
+  border-radius: 15px;
+}
+
+.display{
+  height: 5rem;
+  text-align: right;
+  font-size: 22px;
+  padding: 1rem;
+}
+
+.input{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+button{
+  border: none;
+  background: black;
+  color: white;
+  padding: 1.5rem;
+  font-size: 24px;
+}
